@@ -1,0 +1,105 @@
+/* Style the whole page */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #f1f5f9;
+    color: #1e293b;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style the header */
+header {
+    background-color: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+header img {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style each resume section */
+.resume-section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #184e77;
+    font-size: 24px;
+}
+
+article {
+    margin-bottom: 25px;
+}
+
+/* Style the education table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #64748b;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #1e293b;
+    color: white;
+}
+
+/* Style the contact form */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #64748b;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 16px;
+}
+
+button {
+    background-color: #184e77;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Style the paragraph we will add for JavaScript */
+#profile-message {
+    color: #184e77;
+    font-weight: bold;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+a {
+    color: #184e77;
+}
